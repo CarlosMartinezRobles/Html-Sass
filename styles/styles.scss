@@ -5,12 +5,16 @@
 
 
 .title{
-    margin:0.5rem;
-    font-size:xx-large;
+    margin-bottom:0.5rem;
+    font-size:medium;
     @include flexCenter(row,start,flex);
     color:$textcolor;    
    }
-
+.linea{
+    margin:3px;
+    background-color:red;
+    border-color: white;
+}
    .section_1{
     color: $textcolor;
 }

@@ -1,5 +1,5 @@
 nav{
-    @include perfil ();
+    @include flexCenter (row,center);
     background-color: $navColor ;
     a {       
         text-decoration: none;
