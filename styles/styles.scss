@@ -2,19 +2,23 @@
 @import'./mixins';
 @import'./body';
 @import'./nav';
+@import'./perfiles';
+
 
 
 .title{
     margin-bottom:0.5rem;
     font-size:medium;
-    @include flexCenter(row,start,flex);
+    @include flexCenter(row,start);
     color:$textcolor;    
    }
+
 .linea{
-    margin:3px;
+    margin:10px;
     background-color:red;
     border-color: white;
 }
-   .section_1{
+
+.section_1{
     color: $textcolor;
 }

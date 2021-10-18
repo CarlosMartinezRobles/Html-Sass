@@ -1,35 +1,15 @@
 body {
   margin: 0px;
   background-color: #03071E;
-  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: red;
+  }
 }
 
 nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: Center;
-      -ms-flex-pack: Center;
-          justify-content: Center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #3d348b;
-  height: 50px;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  font-size: 2rem;
-  margin-right: 1rem;
-}
-
-.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,15 +23,37 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #f48c06;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #3d348b;
 }
 
-.section_1 {
-  color: #f48c06;
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin: 0rem 1rem;
+}
+
+.lineaRoja {
+  border-bottom: solid red 1px;
+}
+
+.perfil {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .title {
-  margin: 0.1rem;
+  margin-bottom: 0.5rem;
   font-size: medium;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +68,18 @@ nav a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #f48c06;
+}
+
+.linea {
+  margin: 10px;
+  background-color: red;
+  border-color: white;
+}
+
+.section_1 {
   color: #f48c06;
 }
 /*# sourceMappingURL=styles.css.map */
