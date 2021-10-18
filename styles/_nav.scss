@@ -1,0 +1,10 @@
+nav{
+    @include perfil ();
+    background-color: $navColor ;
+    a {       
+        text-decoration: none;
+        color:$navFontColor;
+        font-size: 2rem;
+        margin-right:1rem;    
+    }
+}

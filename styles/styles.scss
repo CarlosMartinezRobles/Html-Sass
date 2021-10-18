@@ -1,0 +1,16 @@
+@import'./var';
+@import'./mixins';
+@import'./body';
+@import'./nav';
+
+
+.title{
+    margin:0.5rem;
+    font-size:xx-large;
+    @include flexCenter(row,start,flex);
+    color:$textcolor;    
+   }
+
+   .section_1{
+    color: $textcolor;
+}
