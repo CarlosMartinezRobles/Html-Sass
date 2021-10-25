@@ -25,22 +25,36 @@ nav {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #3d348b;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #3d348b;
   font-size: 2rem;
-  margin: 0rem 1rem;
+  margin: 0,01rem 1rem 0,01rem;
 }
 
-.lineaRoja {
-  border-bottom: solid red 1px;
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0.1rem 0.5rem 0.1rem;
 }
 
 .perfil {
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,9 +66,30 @@ nav a {
           justify-content: center;
 }
 
-.title {
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-decoration: none;
+  color: #3d348b;
   margin-bottom: 0.5rem;
-  font-size: medium;
+  font-size: small;
+  margin: 0rem 1rem;
+}
+
+.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,16 +105,12 @@ nav a {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  font-size: small;
   color: #f48c06;
 }
 
-.linea {
-  margin: 10px;
-  background-color: red;
-  border-color: white;
-}
-
-.section_1 {
-  color: #f48c06;
+.lineaRoja {
+  border-bottom: solid red 1px;
 }
 /*# sourceMappingURL=styles.css.map */

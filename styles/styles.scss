@@ -8,18 +8,13 @@
 
 
 .title{
-    margin-bottom:0.5rem;
-    font-size:medium;
     @include flexCenter(row,start);
+    margin-bottom:0.5rem;
+    font-size:small;
     color:$textcolor;    
    }
 
-.linea{
-    margin:10px;
-    background-color:red;
-    border-color: white;
-}
 
-.section_1{
-    color: $textcolor;
+.lineaRoja{
+    border-bottom: solid red 1px;
 }
