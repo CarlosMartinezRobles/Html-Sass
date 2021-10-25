@@ -6,3 +6,10 @@
     flex-wrap: wrap;
 }
 
+@mixin flexend ($direction,$jContent) {
+    display: flex;
+    flex-direction:$direction; 
+    justify-content: $jContent;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
