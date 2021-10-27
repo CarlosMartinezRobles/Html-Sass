@@ -5,7 +5,7 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    background-color: #e85d04;
+    background-color: red;
   }
 }
 
@@ -32,6 +32,10 @@ nav a {
   color: #3d348b;
   font-size: 2rem;
   margin: 0,01rem 1rem 0,01rem;
+}
+
+h1 {
+  color: grey;
 }
 
 .avatar {
@@ -66,7 +70,7 @@ nav a {
           justify-content: center;
 }
 
-.footer {
+.footer1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,11 +86,20 @@ nav a {
           align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  text-decoration: none;
-  color: #3d348b;
   margin-bottom: 0.5rem;
-  font-size: small;
+  font-size: larger;
   margin: 0rem 1rem;
+}
+
+.contacto {
+  text-decoration: none;
+  color: #e90404 !important;
+}
+
+.titulo {
+  text-align: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 .title {

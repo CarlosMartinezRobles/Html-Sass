@@ -1,8 +1,12 @@
-.footer{
+.footer1{
     @include flexend (row,flex-end);
-    text-decoration: none;
-    color:$navColor;
     margin-bottom:0.5rem;
-    font-size:small;
+    font-size:larger;
     margin:0rem 1rem;
+}
+.contacto{
+    text-decoration: none;
+    color:rgb(233, 4, 4) !important;
+
+
 }

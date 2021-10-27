@@ -7,7 +7,9 @@ nav{
         margin:0,01rem 1rem 0,01rem;     
     };
 }
-
+h1{
+    color:$texth1;
+}
 .avatar{
     display:flex;
     flex-direction: column;
