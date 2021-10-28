@@ -5,10 +5,13 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    background-color: red;
+    background-color: #faa307;
   }
   .avatar {
     margin-top: -18rem;
+  }
+  .title {
+    color: #03071E;
   }
 }
 
